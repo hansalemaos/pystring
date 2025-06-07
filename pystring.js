@@ -1,4 +1,4 @@
-class PyString extends String {
+export class PyString extends String {
     #regexNewLine = /(?:\r\n|\r|\n)/;
     #regexNewLineKeep = /(\r\n|\r|\n)/;
     #regexSplitAtWhiteSpaceKeep = /(\s+)/;
